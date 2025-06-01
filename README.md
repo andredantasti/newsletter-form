@@ -50,8 +50,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://andredantasti.github.io/newsletter-form/)
+- Live Site URL: [Add live site URL here](https://github.com/andredantasti/newsletter-form)
 
 ## My process
 
@@ -69,7 +69,7 @@ Os usuários devem ser capazes de:
 
 ### Desenvolvimento Contínuo
 
-Desejo continuar melhorar na questão de espaçamentos do CSS, melhorar e estudar mais sobre display flex e display Grid.
+Desejo continuar melhorar em CSS em âmbito geral e adquirir mais e mais conhecimento em Javascript.
 Continuar e melhorar na questão de responsividade, deixando os projetos com maior compatibilidade em diversos instrumentos de acesso.
 
 
