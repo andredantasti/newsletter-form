@@ -1,0 +1,166 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 36px;
+    width: 904px;
+    height: 641px;
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    display: flex;
+}
+
+.container h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    
+}
+
+.container p, li{
+    font-size: 1rem;
+    color: hsl(234, 29%, 20%);
+ 
+}
+
+.container .form-email p{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 8px;
+}
+
+.container .form-email input{
+    width: 376px;
+    height: 56px;
+    border-radius: 10px;
+    
+}
+
+#email::placeholder{
+    color: rgb(148, 148, 148);
+    font-size: 1rem;
+    padding-left: 24px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+
+}
+
+li::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    width: 21px;
+    height: 21px;
+    background-image: url('../images/icon-list.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.container .descricao-form{
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 450px;
+    
+}
+
+
+.container .descricao-form button{
+    width: 376px;
+    height: 56px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 100%, 100%);
+}
+
+.container .descricao-form button:hover{
+
+    background: linear-gradient(90deg, hsl(15, 100%, 61%), hsl(346, 100%, 66%));
+    cursor: pointer;
+}
+
+#btnEnviar{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mensagem-sucess{
+    display: none;
+   position: absolute;
+    width: 504px;
+    height: 520px;
+    background-color: hsl(0, 100%, 100%);
+    padding: 64px;    
+    border-radius: 25px;
+}
+
+.mensagem-sucess #titulo-sucess, #titulo-sucess, #btn-voltar{
+    margin: 32px 0px;
+}
+
+.mensagem-sucess h1{
+    font-size: 3.5rem;
+}
+
+.mensagem-sucess #btn-voltar{
+    width: 376px;
+    height: 56px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 100%, 100%);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.mensagem-sucess #btn-voltar:hover{
+
+    background: linear-gradient(90deg, hsl(15, 100%, 61%), hsl(346, 100%, 66%));
+    cursor: pointer;
+    border: 0px;
+}
+
+input.erro {
+    border: 2px solid red;
+    background-color: hsla(4, 100%, 67%, 0.4);
+    opacity: 10;
+  }
+
+.form-email .messagem-error{
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 5px;
+    position: absolute;
+    margin: -19px 250px ;
+    width: 250px;
+
+ }

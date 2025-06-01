@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+  }
+
+  body .container {
+    display: flex;
+    width: 608px;
+    height: 878px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .descricao-form ul {
+    font-size: 100%;
+  }
+
+  body .container .descricao-form {
+    margin-right: 0px;
+    gap: 24px;
+  }
+
+  .container .descricao-form {
+    display: flex;
+    height: 100%;
+    gap: 24px;
+  }
+
+
+  body .container .descricao-form input {
+    width: 528px;
+    height: 56px;
+  }
+  body .container .descricao-form button {
+    width: 528px;
+    height: 56px;
+  }
+
+.fundo-right {
+  width: 528px;
+  height: 358.29px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.fundo-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+  .form-email{
+    position: relative;
+  }
+
+ .descricao-form .form-email .messagem-error {
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+    margin: -18px 400px;
+    
+
+ }
+
+}
+
+
+@media (max-width:375px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: start;
+    justify-content: start;
+    
+  }
+
+  body .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+  }
+
+  main.container{
+    padding: 0px 0px;
+    margin-top: 0px;
+    justify-content: start;
+  }
+
+  .descricao-form ul {
+    font-size: 100%;
+  }
+
+  .container .descricao-form ul li::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    width: 21px;
+    height: 21px;
+  }
+
+.container .descricao-form li{
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+  body .container .descricao-form {
+    margin-right: 0px;
+    gap: 24px;
+  }
+
+  .container .descricao-form {
+    display: flex;
+    height: 100%;
+    width: 327px;
+    gap: 24px;
+  }
+
+
+  body .container .descricao-form input {
+    width: 327px;
+    height: 56px;
+  }
+  body .container .descricao-form button {
+    width: 327px;
+    height: 56px;
+  }
+
+.fundo-right {
+  width: 375px;
+  height: 284px;
+  border-radius: 16px;
+  overflow: visible;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.fundo-right img {
+  width: 375px;
+  height: 284px;
+  object-fit: contain;
+  
+}
+
+.container .descricao-form h1{
+    font-size: 2.5rem;    
+}
+
+ .descricao-form .form-email .messagem-error {
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+    margin: -18px 200px;
+    
+
+ }
+
+body .mensagem-sucess{
+    display: none;
+    position: absolute;
+    width: 375px;
+    height: 100%;
+    border-radius: 0px;
+    background-color: hsl(0, 100%, 100%);
+    margin: 0;
+    padding: 149px 24px 70px 24px;    
+    top: 0;
+}
+
+.mensagem-sucess #titulo-sucess, #titulo-sucess, #btn-voltar{
+    margin: 32px 0px;
+}
+
+body .mensagem-sucess h1{
+    font-size: 2.5rem;
+}
+
+body .mensagem-sucess #btn-voltar{
+    width: 327px;
+    height: 56px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 100%, 100%);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+}
